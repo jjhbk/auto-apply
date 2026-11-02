@@ -1,0 +1,23 @@
+{
+  "name": "auto-apply",
+  "private": true,
+  "type": "module",
+  "description": "A local helper that applies to LinkedIn jobs with your resume, in a browser you can see.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "signin": "node src/signin.mjs",
+    "open": "node src/open.mjs",
+    "start": "node src/main.mjs",
+    "dry-run": "node src/main.mjs --dry-run",
+    "log": "node src/show-log.mjs",
+    "resumes": "mkdir -p resumes && .venv/bin/python scripts/build-docx.py && libreoffice --headless --convert-to pdf --outdir resumes resumes/*.docx",
+    "applied": "node src/show-applied.mjs",
+    "setup": "npm install && npx playwright install chromium && python3 -m venv .venv && .venv/bin/pip install -q python-docx"
+  },
+  "dependencies": {
+    "playwright": "1.63.0",
+    "playwright-extra": "^4.3.6"
+  }
+}

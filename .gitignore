@@ -1,0 +1,17 @@
+node_modules/
+# Your LinkedIn browser profile (sign-in cookies). Never commit it.
+.browser-profile/
+logs/
+
+# API key for drafting answers. Never commit it.
+.env
+.venv/
+data/
+undefined/
+
+# Your own details and resumes stay on your machine. Start from the *.example files.
+config/profile.json
+config/long-answers.md
+resumes/*
+!resumes/resume.css
+!resumes/example.html

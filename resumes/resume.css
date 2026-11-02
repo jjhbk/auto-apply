@@ -1,0 +1,16 @@
+@page { size: Letter; margin: 0.5in 0.6in; }
+* { box-sizing: border-box; }
+body { font-family: "Liberation Sans", Arial, Helvetica, sans-serif; font-size: 9.6pt; line-height: 1.28; color: #111; margin: 0; }
+h1 { font-size: 21pt; margin: 0; letter-spacing: 0.3px; }
+.headline { color: #1f3c88; font-weight: bold; font-size: 10.5pt; margin: 2px 0 1px; }
+.meta { font-size: 8.8pt; color: #333; }
+h2 { color: #1f3c88; font-size: 10pt; text-transform: uppercase; border-bottom: 1px solid #1f3c88; padding-bottom: 2px; margin: 10px 0 5px; }
+.role { display: flex; justify-content: space-between; margin-top: 6px; }
+.role b { font-weight: bold; }
+.role .org { color: #1f3c88; }
+.role .dates { font-size: 8.8pt; color: #333; white-space: nowrap; }
+.tag { font-style: italic; color: #333; font-size: 9pt; }
+ul { margin: 2px 0 0; padding-left: 16px; }
+li { margin: 1px 0; }
+p { margin: 0 0 2px; }
+.keep { break-inside: avoid; }

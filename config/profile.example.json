@@ -1,0 +1,190 @@
+{
+  "resumes": [
+    {
+      "name": "Forward Deployed Engineer",
+      "file": "resumes/example.pdf",
+      "useWhenTitleMatches": [
+        "forward deployed",
+        "forward-deployed",
+        "fde",
+        "solutions engineer"
+      ]
+    },
+    {
+      "name": "Default",
+      "file": "resumes/example.pdf",
+      "useWhenTitleMatches": []
+    }
+  ],
+  "search": {
+    "roles": [
+      "Your Role Title",
+      "Another Role Title"
+    ],
+    "locations": [
+      "Your City, Country",
+      "Country"
+    ],
+    "easyApplyOnly": true,
+    "postedWithin": "week",
+    "workplace": [
+      "onsite",
+      "hybrid",
+      "remote"
+    ],
+    "experienceLevels": [
+      "mid-senior",
+      "associate"
+    ],
+    "maxJobsPerSearch": 25
+  },
+  "filters": {
+    "titleMustInclude": [
+      "your role",
+      "another role"
+    ],
+    "titleMustNotInclude": [
+      "intern",
+      "internship",
+      "principal",
+      "director",
+      "head of",
+      "manager",
+      "sales"
+    ],
+    "skipCompanies": []
+  },
+  "apply": {
+    "pauseForApproval": true,
+    "maxApplicationsPerRun": 5,
+    "secondsBetweenJobs": [
+      4,
+      9
+    ],
+    "minutesBetweenApplications": [
+      5,
+      10
+    ],
+    "maxPerCompany": {
+      "count": 3,
+      "days": 30
+    }
+  },
+  "profile": {
+    "firstName": "First",
+    "lastName": "Last",
+    "email": "you@example.com",
+    "phone": "+1 555 555 5555",
+    "city": "Your City, State, Country",
+    "linkedin": "https://www.linkedin.com/in/your-handle",
+    "website": "https://your-site.com",
+    "github": "https://github.com/your-handle",
+    "wellfound": "https://wellfound.com/u/your-handle",
+    "workAuthorization": "Say where you may work and whether a new employer would need to sponsor a visa, e.g. 'Authorized to work in the US; needs no sponsorship.'",
+    "usCity": "",
+    "siteEmails": {}
+  },
+  "experience": [
+    {
+      "company": "Current Company",
+      "title": "Your Title",
+      "from": "2023-01",
+      "to": "present",
+      "city": "Your City"
+    },
+    {
+      "company": "Previous Company",
+      "title": "Earlier Title",
+      "from": "2020-06",
+      "to": "2022-12",
+      "city": "Your City"
+    }
+  ],
+  "education": [
+    {
+      "school": "Your University",
+      "degree": "Degree",
+      "field": "Field of study",
+      "from": "2014-08",
+      "to": "2018-05",
+      "city": "City"
+    }
+  ],
+  "answers": [
+    {
+      "question": "linkedin",
+      "answer": "https://www.linkedin.com/in/your-handle"
+    },
+    {
+      "question": "website|portfolio",
+      "answer": "https://your-site.com"
+    },
+    {
+      "question": "github",
+      "answer": "https://github.com/your-handle"
+    },
+    {
+      "question": "city|location",
+      "answer": "Your City"
+    },
+    {
+      "question": "relocat",
+      "answer": "Yes"
+    },
+    {
+      "question": "notice period",
+      "answer": "30",
+      "textAnswer": "30"
+    },
+    {
+      "question": "current (ctc|salary|compensation)",
+      "answer": ""
+    },
+    {
+      "question": "expected (ctc|salary|compensation)",
+      "answer": ""
+    },
+    {
+      "question": "sponsor",
+      "answer": ""
+    },
+    {
+      "question": "how did you hear",
+      "answer": "Company careers page"
+    }
+  ],
+  "ats": {
+    "greenhouse": [
+      "databricks",
+      "anthropic"
+    ],
+    "lever": [
+      "palantir"
+    ],
+    "ashby": [
+      "notion",
+      "openai"
+    ]
+  },
+  "siteSearch": {
+    "atsAcceptAnyRemote": false,
+    "wellfoundLocations": [
+      "united-states"
+    ],
+    "ycAnyLocation": false
+  },
+  "workday": [
+    {
+      "tenant": "nvidia",
+      "host": "nvidia.wd5.myworkdayjobs.com",
+      "site": "NVIDIAExternalCareerSite",
+      "company": "NVIDIA"
+    }
+  ],
+  "sites": [
+    "wellfound",
+    "yc",
+    "greenhouse",
+    "ashby"
+  ]
+}
